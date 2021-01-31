@@ -29,7 +29,7 @@
 <link rel='stylesheet' id='supreme-modules-pro-for-divi-styles-css'  href='http://localhost/website/wordpress/wp-content/plugins/supreme-modules-pro-for-divi/styles/style.min.css?ver=3.7.2' type='text/css' media='all' />
 <link rel='stylesheet' id='et-builder-googlefonts-cached-css'  href='http://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic&#038;subset=latin,latin-ext&#038;display=swap' type='text/css' media='all' />
 <link rel='stylesheet' id='dashicons-css'  href='http://localhost/website/wordpress/wp-includes/css/dashicons.min.css?ver=5.5.3' type='text/css' media='all' />
-<link rel='stylesheet' id='dtb-static-css-css'  href='http://localhost/website/wordpress/wp-content/plugins/divi-toolbox/cache/wp_dtb-style-8757252.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='dtb-static-css-css'  href='http://localhost/website/wordpress/wp-content/plugins/divi-toolbox/cache/wp_dtb-style-5145132.css?ver=5.5.3' type='text/css' media='all' />
 <script type='text/javascript' src='http://localhost/website/wordpress/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
 <script type='text/javascript' id='wp-sls-forms-js-js-extra'>
 /* <![CDATA[ */
@@ -58,7 +58,11 @@ var et_core_api_spam_recaptcha = {"site_key":"","page_action":{"action":"wordpre
                 jQuery('.preloader').fadeOut('slow');
 			})
 		</script>
-	<meta name="theme-color" content="#999999"><meta name="msapplication-navbutton-color" content="#999999"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><style id="et-divi-customizer-global-cached-inline-styles">#top-menu li a{font-size:16px}body.et_vertical_nav .container.et_search_form_container .et-search-form input{font-size:16px!important}#footer-widgets .footer-widget a,#footer-widgets .footer-widget li a,#footer-widgets .footer-widget li a:hover{color:#ffffff}.footer-widget{color:#ffffff}#footer-info{font-size:20px}.et_slide_in_menu_container,.et_slide_in_menu_container .et-search-field{letter-spacing:px}.et_slide_in_menu_container .et-search-field::-moz-placeholder{letter-spacing:px}.et_slide_in_menu_container .et-search-field::-webkit-input-placeholder{letter-spacing:px}.et_slide_in_menu_container .et-search-field:-ms-input-placeholder{letter-spacing:px}@media only screen and (min-width:1350px){.et_pb_row{padding:27px 0}.et_pb_section{padding:54px 0}.single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper{padding-top:81px}.et_pb_fullwidth_section{padding:0}}</style></head>
+	<meta name="theme-color" content="#999999"><meta name="msapplication-navbutton-color" content="#999999"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="icon" href="http://localhost/website/wordpress/wp-content/uploads/2020/09/cropped-logotype_dark-3-32x32.png" sizes="32x32" />
+<link rel="icon" href="http://localhost/website/wordpress/wp-content/uploads/2020/09/cropped-logotype_dark-3-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="http://localhost/website/wordpress/wp-content/uploads/2020/09/cropped-logotype_dark-3-180x180.png" />
+<meta name="msapplication-TileImage" content="http://localhost/website/wordpress/wp-content/uploads/2020/09/cropped-logotype_dark-3-270x270.png" />
+<style id="et-divi-customizer-global-cached-inline-styles">#top-menu li a{font-size:16px}body.et_vertical_nav .container.et_search_form_container .et-search-form input{font-size:16px!important}#footer-widgets .footer-widget a,#footer-widgets .footer-widget li a,#footer-widgets .footer-widget li a:hover{color:#ffffff}.footer-widget{color:#ffffff}#footer-info{font-size:20px}.et_slide_in_menu_container,.et_slide_in_menu_container .et-search-field{letter-spacing:px}.et_slide_in_menu_container .et-search-field::-moz-placeholder{letter-spacing:px}.et_slide_in_menu_container .et-search-field::-webkit-input-placeholder{letter-spacing:px}.et_slide_in_menu_container .et-search-field:-ms-input-placeholder{letter-spacing:px}@media only screen and (min-width:1350px){.et_pb_row{padding:27px 0}.et_pb_section{padding:54px 0}.single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper{padding-top:81px}.et_pb_fullwidth_section{padding:0}}</style></head>
 <body class="home page-template-default page page-id-277008 hamburger_menu_icon2 custom_hamburger_icon dtb_mobile dtb_mobile_slide dtb_blog_default toolbox_menu3 et_pb_button_helper_class et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns1 et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_smooth_scroll et_no_sidebar et_divi_theme et-db et_minified_js et_minified_css">
 	<div id="page-container">
 
@@ -643,7 +647,7 @@ var et_core_api_spam_recaptcha = {"site_key":"","page_action":{"action":"wordpre
 					<h4 class="dsm_card_title et_pb_module_header">Home Credit Web App</h4>
 					<div class="dsm_card_carousel_child_subtitle">Azure ML, Java Maven, Spring Boot</div>
 					<div class="dsm_card_carousel_child_description"><p>Spring Boot Web application for the Home Credit loan models deployed through Azure ML</p></div>
-					<div class="et_pb_button_wrapper"><a class="et_pb_button et_pb_more_button " href="https://suhaillala.github.io/portfolio/HomeCreditApp/Website/index.html" target="_blank">See Project</a></div>
+					<div class="et_pb_button_wrapper"><a class="et_pb_button et_pb_more_button " href="https://suhaillala.github.io/portfolio/SSDIProjectReportFinal.pdf" target="_blank">Project Report</a></div>
 				</div>
 				</div>
 			</div><div class="et_pb_with_border dsm_card_carousel_child dsm_card_carousel_child_4 swiper-slide">
@@ -799,7 +803,7 @@ var et_core_api_spam_recaptcha = {"site_key":"","page_action":{"action":"wordpre
     <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" /></span> </label></p>
 <p><label> Your Message<br />
     <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </label></p>
-<p><span id="wpcf7-601657ad973f1" class="wpcf7-form-control-wrap phone-wrap" style="display:none !important; visibility:hidden !important;"><label  class="hp-message">Please leave this field empty.</label><input class="wpcf7-form-control wpcf7-text"  type="text" name="phone" value="" size="40" tabindex="-1" autocomplete="nope" /></span></p>
+<p><span id="wpcf7-6016607be7386" class="wpcf7-form-control-wrap phone-wrap" style="display:none !important; visibility:hidden !important;"><label  class="hp-message">Please leave this field empty.</label><input class="wpcf7-form-control wpcf7-text"  type="text" name="phone" value="" size="40" tabindex="-1" autocomplete="nope" /></span></p>
 <p><button type="submit" value="Send" class="wpcf7-form-control wpcf7-submit et_pb_button">Send</button></p>
 <div class="wpcf7-response-output" role="alert" aria-hidden="true"></div></form></div>
 			</div>
