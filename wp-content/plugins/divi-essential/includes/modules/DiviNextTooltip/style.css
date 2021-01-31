@@ -1,0 +1,339 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.dnxte-hostpot-hotspots-container,
+.dnxte-hostpot-hotspots__wrapper:before {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.dnxte-hostpot-hotspot {
+  position: absolute;
+  left: 42%;
+  top: 63%;
+}
+
+.dnxte-hostpot-tooltip {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.dnxte-hostpot-hotspots-wrapper {
+  position: relative;
+}
+.dnxte-hostpot-hotspots-minimage {
+  max-width: 100%;
+  width: 100%;
+}
+.dnxte-hostpot-hotspots-wrapper img {
+  opacity: 1;
+}
+.dnxte-hostpot-tooltip .dnxte-hostpot-tooltip-item {
+  position: relative;
+}
+.dnxte-hostpot-hotspots-wrapper .dnxte-hostpot-tooltip-content {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.dnxte-hostpot-tooltip
+  .dnxte-hostpot-tooltip-item
+  .dnxte-hostpot-tooltip-content {
+  cursor: pointer;
+  line-height: 0.6;
+  font-size: 16px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.dnxte-hostpot-hotspots-wrapper .dnxte-hostpot-hotspots__wrapper {
+  border-radius: 100px;
+  opacity: 1;
+}
+.dnxte-hostpot-hotspots__wrapper,
+.dnxte-hostpot-hotspots__wrapper:before {
+  min-width: 40px;
+  /* min-height: 40px; */
+  display: block;
+  background-color: #4b00e7;
+  color: #ffffff;
+}
+
+.dnxte-hostpot-hotspots__wrapper {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  position: relative;
+}
+
+.dnxte-hostpot-hotspots__wrapper:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  pointer-events: none;
+  -webkit-animation: dnxte-pulse-grow-shadow 2s infinite;
+  animation: dnxte-pulse-grow-shadow 2s infinite;
+  background-color: rgb(231, 66, 66);
+  border-radius: 100px;
+}
+@-webkit-keyframes dnxte-pulse-grow-shadow {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@keyframes dnxte-pulse-grow-shadow {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+.dnxte-hostpot-hotspots__wrapper {
+  padding: 0 12px;
+}
+
+.dnxte-hostpot-hotspots-container,
+.dnxte-hostpot-hotspots__wrapper:before {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.dnxte-hostpot-hotspot__text {
+  display: inline-block;
+}
+.dnxte-hostpot-hotspot .dnxte-hostpot-tooltip-item .dnxte-hostpot-tooltip-text {
+  width: 200px;
+  z-index: 999;
+}
+
+.dnxte-hostpot-tooltip
+  .dnxte-hostpot-tooltip-item.tooltip-top
+  .dnxte-hostpot-tooltip-text {
+  bottom: calc(100% + 1em);
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -15px, 0);
+  transform: translate3d(-50%, -15px, 0);
+  text-align: center;
+}
+
+.dnxte-hostpot-tooltip .dnxte-hostpot-tooltip-item .dnxte-hostpot-tooltip-text {
+  position: absolute;
+  min-width: 150px;
+  padding: 10px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0, 0, 0.2, 1);
+  -o-transition: all 0.25s cubic-bezier(0, 0, 0.2, 1);
+  transition: all 0.25s cubic-bezier(0, 0, 0.2, 1);
+  border-radius: 3px;
+  font-weight: 300;
+  font-size: 16px;
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.2);
+  z-index: 4;
+}
+.dnxte-hostpot-hotspot .dnxte-hostpot-tooltip-text {
+  background-color: #fff;
+}
+
+.dnxte-hostpot-tooltip
+  .dnxte-hostpot-tooltip-item
+  .dnxte-hostpot-tooltip-text:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  animation-direction: alternate;
+}
+.dnxte-hostpot-tooltip
+  .dnxte-hostpot-tooltip-item
+  .dnxte-hostpot-tooltip-content:hover {
+  -webkit-box-shadow: 0px 5px 25px 0px rgba(255, 0, 0, 0.8);
+  box-shadow: 0px 5px 25px 0px rgba(255, 0, 0, 0.8);
+}
+.dnxte-hostpot-tooltip
+  .dnxte-hostpot-tooltip-item.tooltip-top
+  .dnxte-hostpot-tooltip-text:after {
+  bottom: -0.5em;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
+  border-width: 0.5em 0.5em 0 0.5em;
+  border-color: #f9f9f9 transparent transparent transparent;
+}
+
+.dnxte-hostpot-tooltip
+  .dnxte-hostpot-tooltip-item.tooltip-top
+  .dnxte-hostpot-tooltip-content:hover
+  ~ .dnxte-hostpot-tooltip-text {
+  -webkit-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
+  visibility: visible;
+  opacity: 1;
+}
+
+/* bottom */
+.dnxte-hostpot-tooltip.tooltip-bottoms {
+  position: absolute;
+  left: 62%;
+  top: 32%;
+}
+.dnxte-hostpot-tooltip
+  .dnxte-hostpot-tooltip-item.tooltip-bottom
+  .dnxte-hostpot-tooltip-content:hover
+  ~ .dnxte-hostpot-tooltip-text {
+  -webkit-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
+  visibility: visible;
+  opacity: 1;
+  top: calc(100% + 60px);
+}
+
+.dnxte-hostpot-tooltip
+  .dnxte-hostpot-tooltip-item.tooltip-bottom
+  .dnxte-hostpot-tooltip-text {
+  top: calc(100% + 1em);
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 15px, 0);
+  transform: translate3d(-50%, 15px, 0);
+  text-align: center;
+  background-color: #fff;
+}
+
+.dnxte-hostpot-tooltip
+  .dnxte-hostpot-tooltip-item.tooltip-bottom
+  .dnxte-hostpot-tooltip-text:after {
+  top: -0.5em;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
+  border-width: 0 0.5em 0.5em 0.5em;
+  border-color: transparent transparent #f9f9f9 transparent;
+}
+/* right */
+
+.dnxte-hostpot-tooltip.tooltip-brightht {
+  position: absolute;
+  left: 32%;
+  top: 35%;
+}
+.dnxte-hostpot-tooltip
+  .dnxte-hostpot-tooltip-item.tooltip-right
+  .dnxte-hostpot-tooltip-content:hover
+  ~ .dnxte-hostpot-tooltip-text {
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+  visibility: visible;
+  opacity: 1;
+}
+
+.dnxte-hostpot-tooltip
+  .dnxte-hostpot-tooltip-item.tooltip-right
+  .dnxte-hostpot-tooltip-text {
+  top: 50%;
+  left: calc(100% + 1em);
+  -webkit-transform: translate3d(15px, -50%, 0);
+  transform: translate3d(15px, -50%, 0);
+  text-align: center;
+  background-color: #fff;
+}
+
+.dnxte-hostpot-tooltip
+  .dnxte-hostpot-tooltip-item.tooltip-right
+  .dnxte-hostpot-tooltip-text:after {
+  top: 50%;
+  left: -0.5em;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+  border-width: 0.5em 0.5em 0.5em 0;
+  border-color: transparent #fff transparent transparent;
+}
+
+/* left */
+.dnxte-hostpot-tooltip.tooltip-lefts {
+  position: absolute;
+  left: 70%;
+  top: 60%;
+}
+.dnxte-hostpot-tooltip
+  .dnxte-hostpot-tooltip-item.tooltip-left
+  .dnxte-hostpot-tooltip-content:hover
+  ~ .dnxte-hostpot-tooltip-text {
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+  visibility: visible;
+  opacity: 1;
+}
+.dnxte-hostpot-tooltip .dnxte-hostpot-tooltip-item .dnxte-hostpot-tooltip-text {
+  width: 200px;
+  z-index: 999;
+}
+.dnxte-hostpot-tooltip
+  .dnxte-hostpot-tooltip-item.tooltip-left
+  .dnxte-hostpot-tooltip-text {
+  top: 50%;
+  right: calc(100% + 1em);
+  -webkit-transform: translate3d(-15px, -50%, 0);
+  transform: translate3d(-15px, -50%, 0);
+  background-color: #fff;
+}
+
+.dnxte-hostpot-tooltip
+  .dnxte-hostpot-tooltip-item.tooltip-left
+  .dnxte-hostpot-tooltip-text:after {
+  top: 50%;
+  right: -0.5em;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+  border-width: 0.5em 0 0.5em 0.5em;
+  border-color: transparent transparent transparent #f9f9f9;
+}
+
+/* Icon */
+
+.dnxte-hotspot_icon {
+  font-family: "ETModules";
+  color: white;
+}

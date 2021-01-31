@@ -1,0 +1,10 @@
+.dnxte_logo_carousel_child .img-fluid {
+  border-width: 0px;
+  border-color: #333;
+  border-style: solid;
+}
+
+.dnxte_logo_carousel_child {
+  display: flex;
+  align-items: center;
+}

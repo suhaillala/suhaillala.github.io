@@ -1,0 +1,17 @@
+
+.dnxt-txt-parallax-effect {
+    transform-style: preserve-3d;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.dnxt-txt-parallax-effect-3d {
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+}
+.dnxt-txt-parallax-effect,
+.dnxt-txt-parallax-effect-3d {
+    border: 0px solid;
+}

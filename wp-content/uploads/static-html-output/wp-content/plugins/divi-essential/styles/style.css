@@ -1,0 +1,59 @@
+
+.dnxt-testimonial-design-1 {
+position: relative;
+}
+
+.dnxt-testimonial-carosuel-item {
+
+}
+
+.dnxt-testimonial-carosuel-item-content {
+
+}
+
+.dnxt-quote-icon {
+    position: absolute;
+    /* transform: rotate(180deg);
+     right: 0; 
+    font-size: 80px;
+    color: #000;
+    left: 0;
+    top: -24px;
+     text-align: center; 
+     margin: 0 auto; */
+}
+
+
+
+
+
+
+
+
+.dnxt-ratting-star {
+    color: #ffc107;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.dnxt-testimonial-carosuel-item-profile-item {
+    display: flex;
+}
+.dnxt-testimonial-carosuel-item-profile-reviewer {
+    float: left;
+    width: 70px;
+    height: auto;
+}
+.dnxt-testimonial-carosuel-item-profile-descrip {
+    margin-left: 50px;
+}
+.dnxt-testimonial-carosuel-item-profile-degree {
+}
+.dnxt-profile-deg-description {
+
+}
+.dnxt-profile-autor-designation {
+
+}

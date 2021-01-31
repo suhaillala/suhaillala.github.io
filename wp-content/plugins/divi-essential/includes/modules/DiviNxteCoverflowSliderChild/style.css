@@ -1,0 +1,16 @@
+.dnxte_coverflowslider_child .img-fluid {
+  border-width: 0px;
+  border-color: #333;
+  border-style: solid;
+}
+
+.dnxte_coverflowslider_child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+img {
+  height: auto;
+}
